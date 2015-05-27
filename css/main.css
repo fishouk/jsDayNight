@@ -1,9 +1,24 @@
+body.day{
+	background: url(../img/sunnyDay.png) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+body.night{
+	background: url(../img/night.png) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
 .row{
 	margin-top: 50px;
 }
 	.input-group{
-		margin-top: 20px;
-	}
-	.input-group:last-child{
 		margin-bottom: 20px;
+	}
+	.input-group:first-child{
+		margin-top: 20px;
 	}
